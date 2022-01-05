@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @vtalwar9
+- 👋 Hi, I’m Vishesh Talwar
 - 🌱 I am a hardworking person and I enjoy taking challenges because challenges make me feel alive. My life is about learning, experiencing and teaching. I would like to be a successful entrepreneur in near future and very grateful to all those who helped me through my education in order to keep this dream alive...
 - 👀 My Core Areas of Expertise:
 ► Front-End Web Development (Angular)
