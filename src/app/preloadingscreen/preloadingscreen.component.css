@@ -1,0 +1,236 @@
+/* https://codepen.io/in2d/pen/dpavxv */
+
+.app-splash-screen {
+  background: var(--dark-background);
+  background-size: 400% 400%;
+  animation: gradient 3.8s ease infinite;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    transition: left 0.5s;
+  }
+  
+  /* .app-label {
+    margin-top: 32px;
+    color: #fff;
+    font-size: 2.5em;
+    font-family: "Pacifico", cursive;
+  }
+  
+  .app-splash-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+   */
+
+.box{
+  width:410px;
+  height:180px;
+  background:none;
+  position: absolute;
+  margin: auto;
+  margin-left: 390px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-family: 'Orbitron', sans-serif;
+  text-transform:uppercase;
+  font-weight:600;
+  text-align:center;
+  line-height:40px;
+}
+
+
+
+.underline{
+  width:100%;
+  background:linear-gradient(90deg, #feac5e, #c779d0, #4bc0c8);
+  height:10px;
+  margin-top:130px;
+  margin-left: 100px;
+animation: underline 3.8s ease-in-out infinite; 
+}
+@keyframes underline {
+    0%    {width:0%;float:left;}
+    50%   {width:75.5%;}
+    100%  {width:0%;float:right;}
+}
+.P{
+  position:absolute;
+  margin:80px 0 0 70px;
+  background-color:white;
+  width:40px;
+  height:40px;
+  border-radius:100%;
+animation: P 3.8s ease-in-out infinite;
+}
+@keyframes P {
+    10%   {margin-top:80px;background:white;}
+    17.5%   {margin-top:70px;background:#48A1A1;}
+    25%   {margin-top:80px;}
+}
+.O{
+  position:absolute;
+  margin:80px 0 0 115px;
+  background-color:white;
+  width:40px;
+  height:40px;
+  border-radius:100%;
+  animation: O 3.8s ease-in-out infinite;
+}
+@keyframes O {
+    14.15%   {margin-top:80px;background:white;}
+    22%   {margin-top:70px;background:#48A1A1;}
+    29.5%   {margin-top:80px;}
+}
+.R{
+  position:absolute;
+  margin:80px 0 0 160px;
+  background-color:white;
+  width:40px;
+  height:40px;
+  border-radius:100%;
+  animation: R 3.8s ease-in-out infinite;
+}
+@keyframes R {
+    18.3%   {margin-top:80px;background:white;}
+    26%   {margin-top:70px;background:#48A1A1;}
+    33.5%   {margin-top:80px;}
+}
+.T{
+  position:absolute;
+  margin:80px 0 0 205px;
+  background-color:white;
+  width:40px;
+  height:40px;
+  border-radius:100%;
+  animation: T 3.8s ease-in-out infinite;
+}
+@keyframes T {
+    22.45%   {margin-top:80px;background:white;}
+    30%   {margin-top:70px;background:#48A1A1;}
+    37.5%   {margin-top:80px;}
+}
+.F{
+  position:absolute;
+  margin:80px 0 0 250px;
+  background-color:white;
+  width:40px;
+  height:40px;
+  border-radius:100%;
+  animation: F 3.8s ease-in-out infinite;
+}
+@keyframes F {
+    26.6%   {margin-top:80px;background:white;}
+    33.7%   {margin-top:70px;background:#48A1A1;}
+    40.2%   {margin-top:80px;}
+}
+.X{
+  position:absolute;
+  margin:80px 0 0 295px;
+  background-color:white;
+  width:40px;
+  height:40px;
+  border-radius:100%;
+  animation: X 3.8s ease-in-out infinite;
+}
+@keyframes X{
+31.75%   {margin-top:80px;background:white;}
+    39%   {margin-top:70px;background:#48A1A1;}
+    46.5%   {margin-top:80px;}
+}
+.L{
+  position:absolute;
+  margin:80px 0 0 340px;
+  background-color:white;
+  width:40px;
+  height:40px;
+  border-radius:100%;
+   animation: L 3.8s ease-in-out infinite;
+}
+@keyframes L{
+35.9%   {margin-top:80px;background:white;}
+    43.4%   {margin-top:70px;background:#48A1A1;}
+    50.9%   {margin-top:80px;}
+}
+.I{
+  position:absolute;
+  margin:80px 0 0 385px;
+  background-color:white;
+  width:40px;
+  height:40px;
+  border-radius:100%;
+   animation: I 3.8s ease-in-out infinite;
+}
+@keyframes I{
+40.05%   {margin-top:80px;background:white;}
+    47.7%   {margin-top:70px;background:#48A1A1;}
+    55.2%   {margin-top:80px;}
+}
+.Z{
+  position:absolute;
+  margin:80px 0 0 430px;
+  background-color:white;
+  width:40px;
+  height:40px;
+  border-radius:100%;
+   animation: Z 3.8s ease-in-out infinite;
+}
+@keyframes Z{
+44.2%   {margin-top:80px;background:white;}
+    51.5%   {margin-top:70px;background:#48A1A1;}
+    59.5%   {margin-top:80px;}
+}
+
+@media only screen and (max-width: 768px) {
+  .box{
+    margin-left: -75px;
+    
+  }
+  .P{
+    margin-left: 80px;
+  }
+  .O{
+    margin-left: 122.5px;
+  }
+  .R{
+    margin-left: 165px;
+  }
+  .T{
+    margin-left: 207.5px;
+  }
+  .F{
+    margin-left: 250px;
+  }
+  .X{
+    margin-left: 292.5px;
+  }
+  .L{
+    margin-left: 335px;
+  }
+  .I{
+    margin-left: 377.5px;
+  }
+  .Z{
+    margin-left: 420px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .box{
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+}
